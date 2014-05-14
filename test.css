@@ -1,11 +1,25 @@
 
+/*Utility Style*/
+h3{
+	color:rgb(49,91,23);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	font-size: 16px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px 0px;
+	font-size: 12px;
+	color: 	
+}
 
 /*Main Section Styles*/
 
-#content {
+#content-container {
 	width: 660px;
 	min-height: 100px; /*added min height and background-colorso I can view each section*/
-	background-color: #000;
+	background-color: #E8E8E8 ;
 	float:left;
 }
 
@@ -19,4 +33,32 @@
 	float: right;
 	min-height: 100px;/*added min height and background-color so I can view each section*/
 	background-color: #eee;
+}
+
+/*Article Styles*/
+
+.author {
+	color: rgb(187,195,187);
+	font-size: 12px;
+}
+
+.article-container {
+	width: 330px;
+	padding: 15px;
+	border-top: 1px solid #000;
+}
+
+.article-img {
+	left:15;
+	position: absolute;;
+	top: 15;
+}
+
+.article-text {
+	padding:0px 0px 0px 133px;
+	position: relative;
+}
+
+.article-time {
+	font-style: italic;
 }
