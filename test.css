@@ -1,17 +1,17 @@
 
 /*Utility Style*/
 h3{
-	color:rgb(49,91,23);
+	color: #4a9429;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
-	font-size: 16px;
+	font-size: 13px;
 }
 
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	margin: 10px 0px;
-	font-size: 12px;
-	color: 	
+	padding: 5px 0px;
+	font-size: 11px;
+	margin: 0px; 	
 }
 
 /*Main Section Styles*/
@@ -19,7 +19,6 @@ p {
 #content-container {
 	width: 660px;
 	min-height: 100px; /*added min height and background-colorso I can view each section*/
-	background-color: #E8E8E8 ;
 	float:left;
 }
 
@@ -38,20 +37,24 @@ p {
 /*Article Styles*/
 
 .author {
-	color: rgb(187,195,187);
-	font-size: 12px;
+	color: #97a494;
+	font-size: 11px;
+	font-weight: 200;
 }
 
 .article-container {
-	width: 330px;
-	padding: 15px;
-	border-top: 1px solid #000;
+	width: 315px;
+	padding: 15px 0px 20px 15px;
+	border-top: 2px solid rgb(230, 230, 230);
 }
 
 .article-img {
-	left:15;
+	/*left:15;*/
 	position: absolute;;
-	top: 15;
+	/*top: 15;*/
+}
+.article-img img {
+	border-radius: 5px;
 }
 
 .article-text {
@@ -62,3 +65,27 @@ p {
 .article-time {
 	font-style: italic;
 }
+.comment-img {
+	width: 11px;
+	height: 10px;
+	position: relative;
+	top: 2px;
+}
+
+.comment-section {
+	position: relative;
+}
+
+.comment-section p {
+	color: #4a9429;
+}
+/***Clearfix***/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
