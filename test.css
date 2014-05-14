@@ -38,12 +38,6 @@ p {
 
 /*Article Styles*/
 
-.author {
-	color: #97a494;
-	font-size: 11px;
-	font-weight: 200;
-}
-
 .article-container {
 	width: 315px;
 	padding: 15px 0px 10px 15px;
@@ -73,6 +67,12 @@ p {
 .article-time {
 	font-style: italic;
 }
+.author {
+	color: #97a494;
+	font-size: 11px;
+	font-weight: 200;
+}
+
 .comment-img {
 	width: 11px;
 	height: 10px;
@@ -86,6 +86,7 @@ p {
 
 .comment-section p {
 	color: #4a9429;
+	padding-top: 0px;
 }
 /***Clearfix***/
 .clearfix:after {
