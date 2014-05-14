@@ -1,3 +1,22 @@
 
 
 /*Main Section Styles*/
+
+#content {
+	width: 660px;
+	min-height: 100px; /*added min height and background-colorso I can view each section*/
+	background-color: #000;
+	float:left;
+}
+
+.main {
+	position: relative;
+	width: 960px; /*set a width so that sidebar stays to the right and doesnt break down below content if window is resized*/
+}
+
+#sidebar {
+	width: 300px;
+	float: right;
+	min-height: 100px;/*added min height and background-color so I can view each section*/
+	background-color: #eee;
+}
