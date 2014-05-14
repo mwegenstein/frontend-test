@@ -11,7 +11,9 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 5px 0px;
 	font-size: 11px;
-	margin: 0px; 	
+	margin: 0px; 
+	line-height: 14px;
+	font-weight: 500;	
 }
 
 /*Main Section Styles*/
@@ -44,8 +46,14 @@ p {
 
 .article-container {
 	width: 315px;
-	padding: 15px 0px 20px 15px;
+	padding: 15px 0px 10px 15px;
 	border-top: 2px solid rgb(230, 230, 230);
+}
+.article-container:first-child {
+	padding-right: 20px; /*added this padding to extend the border on the top of the first article - it is 20px wider than the two borders below it*/
+}
+.article-container:last-child {
+	border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .article-img {
