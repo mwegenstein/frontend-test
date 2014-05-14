@@ -16,6 +16,14 @@ p {
 	font-weight: 500;	
 }
 
+a {
+	color:red; /*to overide any browser styling so that you can see jQuery when it turns links blue*/
+}
+
+.blue {
+	color:blue;
+}
+
 /*Main Section Styles*/
 
 #content-container {
