@@ -1,6 +1,7 @@
 
 /*Utility Style*/
-h3{
+
+h3 {
 	color: #4a9429;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
@@ -50,6 +51,7 @@ a {
 	width: 315px;
 	padding: 15px 0px 10px 15px;
 	border-top: 2px solid rgb(230, 230, 230);
+	position: relative;
 }
 .article-container:first-child {
 	padding-right: 20px; /*added this padding to extend the border on the top of the first article - it is 20px wider than the two borders below it*/
@@ -59,9 +61,9 @@ a {
 }
 
 .article-img {
-	/*left:15;*/
-	position: absolute;;
-	/*top: 15;*/
+	position: absolute;
+	left:15;
+	top:15;
 }
 .article-img img {
 	border-radius: 5px;
