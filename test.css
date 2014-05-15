@@ -42,7 +42,7 @@ a {
 	width: 300px;
 	float: right;
 	min-height: 100px;/*added min height and background-color so I can view each section*/
-	background-color: #eee;
+	background-color: purple;
 }
 
 /*Article Styles*/
@@ -98,7 +98,14 @@ a {
 	color: #4a9429;
 	padding-top: 0px;
 }
+/*Hide/Show*/
+
+.hide {
+    display: none;
+}
+
 /***Clearfix***/
+
 .clearfix:after {
      visibility: hidden;
      display: block;
